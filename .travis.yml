@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "stable"
+cache:
+  directories:
+    - "node_modules"
+script:
+  - npm install truffle@4.1.7
+  - truffle compile
+  - truffle test
