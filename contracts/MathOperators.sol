@@ -1,4 +1,4 @@
-pragma solidity 0.4.23;
+pragma solidity ^0.4.23;
 
 contract MathOperators {
     function add(uint256 _a, uint256 _b) public pure returns (uint256) {
